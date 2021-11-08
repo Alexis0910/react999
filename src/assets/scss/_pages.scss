@@ -242,3 +242,12 @@
     background-color: #000;
     color: #fff;
 }
+
+.main__cont.tact {
+    div:nth-child(2){
+        margin-left: 9vw;
+    }
+    div:nth-child(3){
+        margin-left: 18vw;
+    }
+}
