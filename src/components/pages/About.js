@@ -17,7 +17,6 @@ function AboutText({title, desc, image}){
             </div>
         </div>
     )
-
 }
 
 
@@ -63,7 +62,6 @@ function About(){
             </Contents>
             <Footer />
         </div> 
-
     )
 }
 

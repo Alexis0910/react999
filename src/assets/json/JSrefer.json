@@ -1,0 +1,249 @@
+{
+    "status": "ok",
+    "status_message": "Query was successful",
+    "data": {
+        "type": "html",
+        "htmlRefer": [
+            {
+                "id": 1,
+                "link": "https://webzz.tistory.com/871?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Cp3eM/btq5bOPqRT1/XK4VLJFhyl7YuR1BC5F9J0/img.png",
+                "title": ".toJSON()",
+                "desc1": ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다.",
+                "desc2": ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다.",
+                "syntax": "Date.toJSON()",
+                "definition": [
+                    ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다."
+                ]
+            },
+            {
+                "id": 2,
+                "link": "https://webzz.tistory.com/870?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/QxwFl/btq5gFRgABf/T3HG1qLSnPoz2oaFZ4keaK/img.png",
+                "title": ".toISOString()",
+                "desc1": ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다.",
+                "desc2": ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다.",
+                "syntax": "Date.toISOString()",
+                "definition": [
+                    ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다."
+                ]
+            },
+            {
+                "id": 3,
+                "link": "https://webzz.tistory.com/869?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bAlYIW/btq5bfNrTkC/XdcUaP3F1zEnHkKsSkSeu0/img.png",
+                "title": ".toGMTString()",
+                "desc1": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+                "desc2": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+                "syntax": "Date.toGMTString()",
+                "definition": [
+                    ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다."
+                ]
+            },
+            {
+                "id": 4,
+                "link": "https://webzz.tistory.com/868?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cxJDtp/btq5bWNDdR4/efua2J32HIpGd6QUIxo4m1/img.png",
+                "title": ".toDateString()",
+                "desc1": ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다.",
+                "desc2": ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다.",
+                "syntax": "Date.toDateString()",
+                "definition": [
+                    ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다."
+                ]
+            },
+            {
+                "id": 5,
+                "link": "https://webzz.tistory.com/867?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JC6mo/btq5hlE0gxA/H2ZCpHj4DRMkoQKKL49umk/img.png",
+                "title": ".setYear()",
+                "desc1": ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다.",
+                "desc2": ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다.",
+                "syntax": "Date.setYear()",
+                "definition": [
+                    ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다."
+                ]
+            },
+            {
+                "id": 6,
+                "link": "https://webzz.tistory.com/866?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/k1fEO/btq5c7Bg882/lL2uXVzbGZPxizNpjH2V1k/img.png",
+                "title": ".setUTCSeconds()",
+                "desc1": ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다.",
+                "desc2": ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다.",
+                "syntax": "Date.setUTCSeconds()",
+                "definition": [
+                    ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 7,
+                "link": "https://webzz.tistory.com/865?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bkgG0P/btq5bWtkJyQ/NXGy5gKUbOEbbEeUQS3WQ1/img.png",
+                "title": ".setUTCMonth()",
+                "desc1": ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다.",
+                "desc2": ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다.",
+                "syntax": "Date.setUTCMonth()",
+                "definition": [
+                    ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 8,
+                "link": "https://webzz.tistory.com/864?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Rt9A3/btq5gvVwpmF/g9RxcjgA4lYM0AW7hw4HL1/img.png",
+                "title": ".setUTCMinutes()",
+                "desc1": ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다.",
+                "desc2": ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다.",
+                "syntax": "Date.setUTCMinutes()",
+                "definition": [
+                    ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 9,
+                "link": "https://webzz.tistory.com/863?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/m6xgF/btq5fyd7Xkp/e8QrzkNLemhok2RQpWAit1/img.png",
+                "title": ".setUTCMilliseconds()",
+                "desc1": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+                "desc2": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+                "syntax": "Date.setUTCMilliseconds()",
+                "definition": [
+                    ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 10,
+                "link": "https://webzz.tistory.com/862?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bCuwYZ/btq5bOooU0s/9sdMLHRSdbEUy9g6tkOIP0/img.png",
+                "title": ".setUTCHours()",
+                "desc1": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+                "desc2": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+                "syntax": "Date.setUTCHours()",
+                "definition": [
+                    ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 11,
+                "link": "https://webzz.tistory.com/861?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/L5mct/btq5ff0dGCJ/YWK5biueOUldlC6lfviiz1/img.png",
+                "title": ".setUTCFullYear()",
+                "desc1": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+                "desc2": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+                "syntax": "Date.setUTCFullYear()",
+                "definition": [
+                    ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 12,
+                "link": "https://webzz.tistory.com/860?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bI6QrM/btq5azSRk2T/C5uVKnuaykn61koyFRPFM1/img.png",
+                "title": ".setUTCDate()",
+                "desc1": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+                "desc2": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+                "syntax": "Date.setUTCDate()",
+                "definition": [
+                    ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 13,
+                "link": "https://webzz.tistory.com/859?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/o3So5/btq5artDEx3/ODNkxf2gcGSKkuYJzVycdk/img.png",
+                "title": ".setTime()",
+                "desc1": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+                "desc2": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+                "syntax": "Date.setTime()",
+                "definition": [
+                    ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 14,
+                "link": "https://webzz.tistory.com/858?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/qSyxE/btq5g4pRLVx/W6FisbCkgluQqqgl4pMkck/img.png",
+                "title": ".setSeconds()",
+                "desc1": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+                "desc2": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+                "syntax": "Date.setSeconds()",
+                "definition": [
+                    ".setSeconds() 메서드는 현재 초 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 15,
+                "link": "https://webzz.tistory.com/857?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/buGobc/btq5i26gl5A/Hs6LfvM29co2KRIYXYEKs1/img.png",
+                "title": ".setMonth()",
+                "desc1": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+                "desc2": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+                "syntax": "Date.setMonth()",
+                "definition": [
+                    ".setMonth() 메서드는 현재 월 정보를 수정합니다"
+                ]
+            },
+            {
+                "id": 16,
+                "link": "https://webzz.tistory.com/856?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bAfUxK/btq5g53mwI2/voikj95e9ITwdizaKmaxVk/img.png",
+                "title": ".setMinutes()",
+                "desc1": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+                "desc2": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+                "syntax": "Date.setMinutes()",
+                "definition": [
+                    ".setMinutes() 메서드는 현재 분 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 17,
+                "link": "https://webzz.tistory.com/855?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bo0vGn/btq5i35arwn/In7fRzQfAl7yWuaZAwheC1/img.png",
+                "title": ".setMilliseconds()",
+                "desc1": ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다.",
+                "desc2": ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다.",
+                "syntax": "Date.setMilliseconds()",
+                "definition": [
+                    ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 18,
+                "link": "https://webzz.tistory.com/854?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ZDSR5/btq5gwmCGdT/kws1tKSf2zYX4KQ1r3NUP0/img.png",
+                "title": ".setHours()",
+                "desc1": ".setHours() 메서드는 현재 시간 정보를 수정합니다.",
+                "desc2": ".setHours() 메서드는 현재 시간 정보를 수정합니다.",
+                "syntax": "Date.setHours()",
+                "definition": [
+                    ".setHours() 메서드는 현재 시간 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 19,
+                "link": "https://webzz.tistory.com/853?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/rAdLi/btq5bOhDKze/nFkjpcVdkPW5RF8sKCbfV0/img.png",
+                "title": ".setFullYear()",
+                "desc1": ".setFullYear() 메서드는 현재 년도 정보를 수정합니다.",
+                "desc2": ".setFullYear() 메서드는 현재 년도 정보를 수정합니다.",
+                "syntax": "Date.setFullYear()",
+                "definition": [
+                    ".setFullYear() 메서드는 현재 년도 정보를 수정합니다."
+                ]
+            },
+            {
+                "id": 20,
+                "link": "https://webzz.tistory.com/852?category=760015",
+                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/mHPXB/btq5c7BgM6I/3jGzDGE1bOAu7TBf99DKsK/img.png",
+                "title": ".setData()",
+                "desc1": ".setData() 메서드는 현재 일 정보를 수정합니다.",
+                "desc2": ".setData() 메서드는 현재 일 정보를 수정합니다.",
+                "syntax": "Date.setData()",
+                "definition": [
+                    ".setData() 메서드는 현재 일 정보를 수정합니다."
+                ]
+            }
+        ]
+    }
+}

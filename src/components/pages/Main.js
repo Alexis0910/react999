@@ -26,8 +26,6 @@ function Main(){
                             <Info text={info.text} key={info.text} />
                         ))}
                     </div>
-
-
                 </section>
             </Contents>
             <Footer />
