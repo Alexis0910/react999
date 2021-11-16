@@ -1,7 +1,7 @@
 {
     "data": {
         "type": "html",
-        "htmlRefer": [
+        "cssRefer": [
         {
             "id": 1,
             "link": "https://webzz.tistory.com/361",
@@ -172,7 +172,7 @@
             "use": "★★★",
             "definition": [
             "color 속성은 글씨 색을 설정합니다.",
-            "font-color 속성은 존재하지 않습니다.",
+            "font-color 속성은 존재하지 않습니다."
             ]
         },
         {
@@ -189,7 +189,7 @@
             "use": "★☆☆",
             "definition": [
                 "columns 속성은 열의 폭과 열의 수를 정의합니다.",
-                "column-width와 column-count를 같이 사용할 경우 count가 우선 적용됩니다.",
+                "column-width와 column-count를 같이 사용할 경우 count가 우선 적용됩니다."
             ]
         },
         {
@@ -205,7 +205,7 @@
             "view": "",
             "use": "★★★",
             "definition": [
-            "content 속성은 콘텐츠 내용을 설정합니다.",
+            "content 속성은 콘텐츠 내용을 설정합니다."
             ]
         },
 
@@ -224,7 +224,7 @@
             "definition": [
                 "display:inline 속성은 인라인 요소의 성질로 설정합니다.",
                 "display:block 속성은 블록 요소로 성질로 설정합니다.",
-                "display:flex 속성은 플렉스 요소의 성질로 설정합니다.",
+                "display:flex 속성은 플렉스 요소의 성질로 설정합니다."
             ]
         },
         {
@@ -277,7 +277,7 @@
             "use": "★☆☆",
             "definition": [
             "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
-            "flex-wrap의 속성이 nowrap을 설정되어 있다면 요소의 width값과 height값은 무시가 됩니다.",
+            "flex-wrap의 속성이 nowrap을 설정되어 있다면 요소의 width값과 height값은 무시가 됩니다."
             ]
         },
 
@@ -337,7 +337,7 @@
                 "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
                 "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의하고 align-content 속성은 콘텐츠의 상하 관계 정렬 상태를 정의합니다.",
                 "justify-content 속성은 display:flex; 상태에서 적용됩니다.",
-                "justify-content : flex-start | flex-end | center | space-between | space-around",
+                "justify-content : flex-start | flex-end | center | space-between | space-around"
             ]
         },
     
@@ -376,8 +376,9 @@
                 "list-style : list-style-type | list-style-position | list-style-image",
                 "list-style-type 속성은 목록 마커의 유형을 설정합니다.",
                 "list-style-position 속성은 목록 마커의 위치을 설정합니다.",
-                "list-style-image 속성은 목록 마커의 이미지를 설정합니다.",
+                "list-style-image 속성은 목록 마커의 이미지를 설정합니다."
             ]
         }
     ]
+    }
 }

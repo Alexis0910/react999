@@ -1,61 +1,52 @@
-import axios from 'axios';
 import React from 'react';
-import Contents from '../layouts/Contents';
-import Footer from '../layouts/Footer';
-import Header from '../layouts/Header';
+// import axios from 'axios';
 import Loading from '../layouts/Loading';
+import Header from '../layouts/Header';
+import Footer from '../layouts/Footer';
+import Contents from '../layouts/Contents';
 import WrapTitle from '../layouts/WrapTitle';
-import ContInfo from '../layouts/ContInfo';
-import JSReferInfo from '../info/JSReferInfo';
 import ReferInfo from '../info/ReferInfo';
-import * as referJson from '../../assets/json/refer.json';
-import * as CSSrefer from '../../assets/json/CSSrefer.json';
-import * as JSrefer from '../../assets/json/JSrefer.json';
+import ContInfo from '../layouts/ContInfo';
+import * as HtmlJson from '../../assets/json/refer.json';
+// import * as CssJson from '../../assets/json/cssRefer.json';
 
 class Reference extends React.Component {
     state = {
         isLoading: true,
         refers: [],
-        jsRefers:[],
-        cssRefers:[],
-        activeTab: 0
+        activeTab: 0,
     }
+
     clickHandler = (id) => {
         this.setState({activeTab : id})
     }
-
+    
     getRefer = async () => {
-        const {
-            default: {
-                data : {htmlRefer},
-            },
-        } = referJson;
-        this.setState({refers:htmlRefer, isLoading:false})
+        // this.setState({refers: JsonData.default.data.htmlRefer, isLoading: false});
 
         const {
             default: {
-                data: {jsRefer},
+                data: {htmlRefer},
             },
-        } = JSrefer;
-        this.setState({jsRefers:jsRefer, isLoading:false})
+        } = HtmlJson;
+        this.setState({refers: htmlRefer, isLoading: false})
 
-        const {
-            default: {
-                data: {cssRefer},
-            },
-        } = CSSrefer;
-        this.setState({cssRefers:cssRefer, isLoading:false})
+        // const {
+        //     default: {
+        //         data:{cssRefer},
+        //     },
+        // } = CssJson;
+        // this.setState({cssRefers: cssRefer})
     }
-
 
     componentDidMount(){
         setTimeout(() => {
             this.getRefer();
         }, 2000)
     }
-    
+
     render(){
-        const {isLoading, refers, cssRefers, jsRefers} = this.state;
+        const {isLoading, refers, cssRefers} = this.state;
         const tabObj = {
             0: refers.map((refer) => (
             <ReferInfo
@@ -71,43 +62,13 @@ class Reference extends React.Component {
                 version={refer.version}
                 view={refer.view}
                 definition={refer.definition}
-            />
-        )),
-        
-        
-            1: cssRefers.map((refer) => (
-                <ReferInfo
-                    key={refer.id}
-                    link={refer.link}
-                    id={refer.id}
-                    title={refer.title}
-                    desc1={refer.desc1}
-                    desc2={refer.desc2}
-                    element={refer.element}
-                    tag={refer.tag}
-                    use={refer.use}
-                    version={refer.version}
-                    view={refer.view}
-                    definition={refer.definition}
-                />
-            )),
-        
-            
-            2: jsRefers.map((refer) => (
-                <JSReferInfo
-                    key={refer.id}
-                    link={refer.link}
-                    id={refer.id}
-                    title={refer.title}
-                    desc1={refer.desc1}
-                    desc2={refer.desc2}
-                    syntax={refer.syntax}
-                    definition={refer.definition}
-                />
-            )),
-        }
-        
+            />)),
 
+            // 1: cssRefers.map(() => (
+
+            // )),
+        }
+        console.log(this.state.activeTab);
         return (
             <div>
                 {isLoading ? (
@@ -118,7 +79,7 @@ class Reference extends React.Component {
                         <Contents>
                             <section id="referCont">
                                 <div className="container">
-                                    <WrapTitle text={['Reference','book']} />
+                                <WrapTitle text={['Reference', 'book']} />
                                     <div className="refer__cont">
                                         <div className="table">
                                             <ul className="tabs">
@@ -129,9 +90,9 @@ class Reference extends React.Component {
                                             <ul>
                                                 {tabObj[this.state.activeTab]}
                                             </ul>
-                                        </div> 
+                                        </div>
                                     </div>
-                                </div>    
+                                 </div>
                             </section>
                             <ContInfo />
                         </Contents>
@@ -142,4 +103,5 @@ class Reference extends React.Component {
         )
     }
 }
+
 export default Reference;

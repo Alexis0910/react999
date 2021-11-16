@@ -3,7 +3,7 @@
     "status_message": "Query was successful",
     "data": {
         "type": "html",
-        "htmlRefer": [
+        "jsRefer": [
             {
                 "id": 1,
                 "link": "https://webzz.tistory.com/871?category=760015",
