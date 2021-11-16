@@ -1,0 +1,383 @@
+{
+    "data": {
+        "type": "html",
+        "htmlRefer": [
+        {
+            "id": 1,
+            "link": "https://webzz.tistory.com/361",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/UGvT9/btq4OrNFowz/750gw2KqkbSqP9m5IJSYv0/img.png",
+            "title": "align-content",
+            "desc1": "align-content  속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "desc2": "align-content  속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "element": "flexbox",
+            "tag": "align-content : stretch",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+            "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+            ]
+        },
+        {
+            "id": 2,
+            "link": "https://webzz.tistory.com/364",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/tjggl/btq4MS6bAT5/FEKfvE4DZXxe69CBNJSoZ0/img.png",
+            "title": "all",
+            "desc1": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "desc2": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "element": "모든속성",
+            "tag": "all : auto",
+            "version": "CSS3",
+            "view": "",
+            "use": "☆☆☆",
+            "definition": [
+            "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "all 속성은 모든 요소에 설정 가능합니다."
+            ]
+        },
+        {
+            "id": 3,
+            "link": "https://webzz.tistory.com/2361",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bfoJWo/btq4Uq7GjXO/qHlkQ3dYBasJPrOtXSonrK/img.png",
+            "title": "animation",
+            "desc1": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다. 애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+            "desc2": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+            "element": "모든속성",
+            "tag": "animation-name: none;",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+            "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+            "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+            "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+            "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+            "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+            "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
+            "animation-play-state 속성은 애니메이션 진행상태를 설정합니다."
+            ]
+        },
+        {
+            "id": 4,
+            "link": "https://webzz.tistory.com/374",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/yetvx/btq4Ose6Rt3/g5zKbaD5EK0lneU9KokQP0/img.png",
+            "title": " backface-visibility",
+            "desc1": " backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+            "desc2": " backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+            "element": "",
+            "tag": " backface-visibility : visible",
+            "version": "CSS3",
+            "view": "",
+            "use": "★☆☆",
+            "definition": [
+            " backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+            " 2D 상태에서는 뒷면을 확인할 수 없지만 3D 공간에서는 뒷면을 확인 할 수 있습니다."
+            ]
+        },
+        {
+            "id": 5,
+            "link": "https://webzz.tistory.com/375",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/uCNaF/btq4SmEWQlP/bKKnv5f2M6kgh5kZfJcGe0/img.png",
+            "title": "background",
+            "desc1": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+            "desc2": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+            "element": "모든속성",
+            "tag": "background: none;",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+            "background 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+            "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+            "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+            "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정합니다.",
+            "background-color 속성은 백그라운드 색을 설정합니다.",
+            "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다.",
+            "background-repeat 속성은 백그라운드 이미지 반복 여부를 설정합니다.",
+            "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다."
+
+            ]
+        },
+        {
+            "id": 6,
+            "link": "https://webzz.tistory.com/385",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bjhoDR/btq4Ur6A1GB/AkecIp7OVaSPkUW8xC6wv1/img.png",
+            "title": "border",
+            "desc1": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+            "desc2": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+            "element": "모든속성",
+            "tag": "border: 1px solid #fff;",
+            "version": "CSS1",
+            "view": "border",
+            "use": "★★★",
+            "definition": [
+            "border-width는 테두리 두께 속성을 설정합니다.",
+            "border-style는 테두리 스타일 속성을 설정합니다.",
+            "border-color는 테두리 색 속성을 설정합니다.",
+            "border-image는 테두리 이미지 속성을 설정합니다.",
+            "border-radius는 모서리 굴곡을 설정합니다."
+            ]
+        },
+        {
+            "id": 7,
+            "link": "https://webzz.tistory.com/420",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bhCIJr/btq4RTXisW5/dpzKKexvRE75hCbFrKlpi1/img.png",
+            "title": "box-shadow",
+            "desc1": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "desc2": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "element": "",
+            "tag": "box-shadow: none;",
+            "version": "CSS3",
+            "view": "",
+            "use": "★☆☆",
+            "definition": [
+            "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "/* h-shadow | v-shadow | color를 설정한 경우 */ box-shadow: 10px 20px #ccc;",
+            "/* h-shadow | v-shadow | blur | color를 설정한 경우 */ box-shadow: 10px 20px 10px #ccc;",
+            "/* h-shadow | v-shadow | blur | spread | color를 설정한 경우 */ box-shadow: 10px 20px 10px 10px rgba(0, 0, 0, 0.2);"
+
+            ]
+        },
+        {
+            "id": 8,
+            "link": "https://webzz.tistory.com/421",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/yt0zs/btq4RTQv5QC/vlKNmca1iPESkxaKIx0Fzk/img.png",
+            "title": "box-sizing",
+            "desc1": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "desc2": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "element": "box",
+            "tag": "box-sizing : content-box",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+                "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+                "박스 요소의 width 값은 margin, padding, border 값을 포함하여 계산합니다.",
+                "box-sizing: border-box로 설정할 경우 박스 요소의 width 값은 margin, border 값을 포함하여 계산합니다. padding 값은 제외됩니다."
+            ]
+        },
+        {
+            "id": 9,
+            "link": "https://webzz.tistory.com/426",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bUV4Jg/btq4QQUkbam/0SD9Zx3BBHaVh49zeWDFn0/img.png",
+            "title": "color",
+            "desc1": "color 속성은 글씨 색을 설정합니다.",
+            "desc2": "color 속성은 글씨 색을 설정합니다.",
+            "element": "font",
+            "tag": "color: 브라우저마다 다양함(브라우저 기본 색)",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+            "color 속성은 글씨 색을 설정합니다.",
+            "font-color 속성은 존재하지 않습니다.",
+            ]
+        },
+        {
+            "id": 10,
+            "link": "https://webzz.tistory.com/436",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/u05mO/btq4PnR9eFk/bst0CHA3WzqkeQMMxxWrj0/img.png",
+            "title": "columns",
+            "desc1": "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+            "desc2": "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+            "element": "column",
+            "tag": "column-width: auto",
+            "version": "CSS3",
+            "view": "",
+            "use": "★☆☆",
+            "definition": [
+                "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+                "column-width와 column-count를 같이 사용할 경우 count가 우선 적용됩니다.",
+            ]
+        },
+        {
+            "id": 11,
+            "link": "https://webzz.tistory.com/437",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bldvBh/btq4Oh5Xz21/brpOPJZzFjHizsGhE7L7o0/img.png",
+            "title": "content",
+            "desc1": "content 속성은 콘텐츠 내용을 설정합니다.",
+            "desc2": "content 속성은 콘텐츠 내용을 설정합니다.",
+            "element": "",
+            "tag": "content: normal",
+            "version": "CSS2",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+            "content 속성은 콘텐츠 내용을 설정합니다.",
+            ]
+        },
+
+        {
+            "id": 12,
+            "link": "https://webzz.tistory.com/442",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bimAvG/btq4MA5IpyU/HYukspiItK0BPpRO5TErhK/img.png",
+            "title": "display",
+            "desc1": "display 속성은 요소의 성질을 정의합니다.",
+            "desc2": "display 속성은 요소의 성질을 정의합니다.",
+            "element": "",
+            "tag": "display: inline",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+                "display:inline 속성은 인라인 요소의 성질로 설정합니다.",
+                "display:block 속성은 블록 요소로 성질로 설정합니다.",
+                "display:flex 속성은 플렉스 요소의 성질로 설정합니다.",
+            ]
+        },
+        {
+            "id": 13,
+            "link": "https://webzz.tistory.com/444",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/HtE1Q/btq4PnRRc2y/f2dCJGe6TnXIryMTnxXlkK/img.png",
+            "title": "filter",
+            "desc1": "filter 속성은 그래픽 효과를 설정합니다.",
+            "desc2": "filter 속성은 그래픽 효과를 설정합니다.",
+            "element": "",
+            "tag": "filter: none",
+            "version": "CSS3",
+            "view": "",
+            "use": "★☆☆",
+            "definition": [
+            "filter 속성은 그래픽 효과를 설정합니다.",
+            "hue-rotate()는 0deg~360deg까지 표현합니다.",
+            "filter : none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url()"
+            ]
+        },
+
+        {
+            "id": 14,
+            "link": "https://webzz.tistory.com/453",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/LTnNs/btq4O97FRH2/18sMjkUJ6bJWRk3jNQhKF1/img.png",
+            "title": "font",
+            "desc1": "font 속성은 폰트에 관한 설정을 정의합니다.",
+            "desc2": "font 속성은 폰트에 관한 설정을 정의합니다.",
+            "element": "",
+            "tag": "font-style : normal",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+                "font 속성은 폰트 스타일, 폰트 변형, 폰트 두께, 폰트 사이즈, 폰트 간격, 폰트 종류를 설정합니다.",
+                "font : font-style / font-variant / font-weight / font-stretch / font-size / line-height / font-family | caption | icon | menu | message-box | small-caption | status-bar"
+            ]
+        },
+        {
+            "id": 15,
+            "link": "https://webzz.tistory.com/451",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/WRRzI/btq4RNQzlJE/jhkbRUrgfZbKT0kFNjm6j0/img.png",
+            "title": "flex-wrap",
+            "desc1": "flex-wrap 속성은 그래픽 효과를 설정합니다.",
+            "desc2": "flex-wrap 속성은 그래픽 효과를 설정합니다.",
+            "element": "",
+            "tag": "flex-wrap: nowrap",
+            "version": "CSS3",
+            "view": "",
+            "use": "★☆☆",
+            "definition": [
+            "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
+            "flex-wrap의 속성이 nowrap을 설정되어 있다면 요소의 width값과 height값은 무시가 됩니다.",
+            ]
+        },
+
+        {
+            "id": 16,
+            "link": "https://webzz.tistory.com/453",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bgGuTY/btq4Or8i4qG/MQDgKwu3OVEuYgK1STvW61/img.png",
+            "title": "float",
+            "desc1": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+            "desc2": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+            "element": "",
+            "tag": "float: none",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★☆",
+            "definition": [
+                "float 속성은  블록요소의 정렬 상태를 설정합니다.",
+                "float : none 속성은 float의 성질을 적용하지 않습니다. ",
+                "float : left 속성은 블록요소를 왼쪽으로 정렬합니다. ",
+                "float : right 속성은 f블록요소를 오른쪽으로 정렬합니다."
+            ]
+        },
+        {
+            "id": 17,
+            "link": "https://webzz.tistory.com/461",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/xNsH3/btq4TACJCeb/gjD98QZkIuh9RQpPFjb3GK/img.png",
+            "title": "grid",
+            "desc1": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "desc2": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "element": "Grid",
+            "tag": "grid-template-columns : 0",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★☆",
+            "definition": [
+            "grid 속성은 그리드 레이아웃 속성을 설정합니다.",
+            "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "grid-template-areas 속성은 컬럼의 영역을 설정합니다.",
+            "grid-gap 속성은 컬럼의 간격을 설정합니다.",
+            "grid-template-rows 속성은 세로 컬럼의 크기와 위치를 설정합니다."
+            ]
+        },
+
+        {
+            "id": 18,
+            "link": "https://webzz.tistory.com/482",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bFzSmY/btq4TnchWv2/coqKxI7f5dTm0KBYXwvNa0/img.png",
+            "title": "justify-content",
+            "desc1": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "desc2": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "element": "flex",
+            "tag": "justify-content: space-between",
+            "version": "CSS3",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+                "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+                "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의하고 align-content 속성은 콘텐츠의 상하 관계 정렬 상태를 정의합니다.",
+                "justify-content 속성은 display:flex; 상태에서 적용됩니다.",
+                "justify-content : flex-start | flex-end | center | space-between | space-around",
+            ]
+        },
+    
+        {
+            "id": 19,
+            "link": "https://webzz.tistory.com/484",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/mxTWG/btq4RVgwKZo/lMxNvPA9AILNAgOMGcZqI0/img.png",
+            "title": "letter-spacing",
+            "desc1": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+            "desc2": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+            "element": "letter-spacing",
+            "tag": "letter-spacing : normal",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★☆",
+            "definition": [
+            "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+            "letter-spacing : normal | length"
+            ]
+        },
+
+        {
+            "id": 20,
+            "link": "https://webzz.tistory.com/486",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ALi3O/btq4RT364fX/6DmyBPg1HQgPiWkQ0pzknk/img.png",
+            "title": "list-style",
+            "desc1": "list-style 속성은 목록 스타일 속성을 설정합니다.",
+            "desc2": "list-style 속성은 목록 스타일 속성을 설정합니다.",
+            "element": "font",
+            "tag": "list-style-image : none",
+            "version": "CSS1",
+            "view": "",
+            "use": "★★★",
+            "definition": [
+                "list-style 속성은 목록 스타일 속성을 설정합니다.",
+                "list-style : list-style-type | list-style-position | list-style-image",
+                "list-style-type 속성은 목록 마커의 유형을 설정합니다.",
+                "list-style-position 속성은 목록 마커의 위치을 설정합니다.",
+                "list-style-image 속성은 목록 마커의 이미지를 설정합니다.",
+            ]
+        }
+    ]
+}
