@@ -91,8 +91,6 @@ class Reference extends React.Component {
                     definition={refer.definition}
                 />
             )),
-        
-            
             2: jsRefers.map((refer) => (
                 <JSReferInfo
                     key={refer.id}
