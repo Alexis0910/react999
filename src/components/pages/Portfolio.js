@@ -28,7 +28,6 @@ class Portfolio extends React.Component {
         } = await axios.get("https://webstoryboy.github.io/react5001/src/assets/json/portfolio.json");
         //console.log(ports.data.data.ports);
         this.setState( {ports, isLoading : false} )
-    
     }
 
     //사이트가 로딩이 완료되면 실행시켜라

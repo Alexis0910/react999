@@ -6,7 +6,6 @@ import Contents from '../layouts/Contents';
 function Info({text}){
     return <div>{text}</div>
 }
-
 const textInfo = [
     {text : "we provide"},
     {text : "visual coding"},
